@@ -1,8 +1,8 @@
-function [imgSet, personID]=loadTrainingSet(imgPath)
+function [imgSet, personID]=loadSTG2TrainingSet(imgPath)
 % imgSet stores the training images
 % personID is the corresponding ID for each image. 
 
-maxImage=200;  % set a maximum number of images for training.
+maxImage=100;  % set a maximum number of images for training.
 folderNames=dir(imgPath);
 imgSet=zeros(600,600,3,maxImage); % all images are 3 channels with size of 600x600
 personID=[]; % the folder names are the labels
