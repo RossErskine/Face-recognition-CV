@@ -1,4 +1,4 @@
-#FACE RECOGNITION WITH ONE-SHOT LEARNING USING A SIAMESE CNN
+# FACE RECOGNITION WITH ONE-SHOT LEARNING USING A SIAMESE CNN
 
 Face recognition with one-shot learning can be an important task such as border-control, where a certain individual needs to be found and there is little known identity or images of the person, or a employee confirming his/her attendance via a register at their place of work. This task
 creates many challenges such as illumination, pose, expression and occlusion. In this paper we aim to make a Siamese Convolutional neural network (SCNN) which can recognise faces with only one image of each task One-shot learning. Although the results of the experiments were not fully finished to give us a full description of our model, there is perhaps a base from which to progress with further experiments to develop this work.
